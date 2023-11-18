@@ -1,7 +1,6 @@
 #! /usr/bin/env python3
 
 from openai import OpenAI
-import config
 client = OpenAI()
 
 question = input("Ask your question: ")
